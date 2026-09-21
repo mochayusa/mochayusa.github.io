@@ -12,20 +12,33 @@
       <a class="brand" href="#top">mochayusa</a>
       <nav>
         <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top">
       <section class="hero">
-        <p class="eyebrow">Hi, I'm</p>
-        <h1>Mochayusa</h1>
-        <!-- TODO: replace with a one-line description of what you do -->
-        <p class="tagline">Welcome to my corner of the internet.</p>
-        <div class="actions">
-          <a class="button primary" href="#projects">See my work</a>
-          <a class="button" href="https://github.com/mochayusa">GitHub</a>
+        <!-- TODO: add your photo as photo.jpg (square, ~400x400) in the repo root -->
+        <img class="avatar" src="photo.jpg" alt="Photo of Mochayusa" width="160" height="160"
+             onerror="this.style.display='none'" />
+        <div>
+          <p class="eyebrow">Hi, I'm</p>
+          <h1>Mochayusa</h1>
+          <!-- TODO: your job title / headline -->
+          <p class="tagline">Your Job Title &middot; Your Organization</p>
+          <!-- TODO: city, country -->
+          <p class="meta">City, Country</p>
+          <div class="actions">
+            <a class="button primary" href="#projects">See my work</a>
+            <a class="button" href="https://github.com/mochayusa">GitHub</a>
+            <!-- TODO: link to your CV/resume, e.g. cv.pdf in the repo root -->
+            <a class="button" href="cv.pdf">Download CV</a>
+          </div>
         </div>
       </section>
 
@@ -33,31 +46,127 @@
         <h2>About</h2>
         <!-- TODO: write a short bio -->
         <p>
-          Write a few sentences about yourself here: what you do, what you're
-          interested in, and what you're working on.
+          Write a short paragraph about yourself: who you are, what you do, and
+          how long you've been doing it.
         </p>
+        <p>
+          A second paragraph can cover what you're currently working on or
+          looking for.
+        </p>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <!-- TODO: replace with your real education; copy an <li> to add more -->
+        <ul class="timeline">
+          <li>
+            <span class="period">20XX &ndash; 20XX</span>
+            <h3>Degree, Field of Study</h3>
+            <p class="org">University Name</p>
+            <p>Optional: thesis topic, honors, or notable coursework.</p>
+          </li>
+          <li>
+            <span class="period">20XX &ndash; 20XX</span>
+            <h3>Degree, Field of Study</h3>
+            <p class="org">University Name</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+        <!-- TODO: list newest first -->
+        <ul class="timeline">
+          <li>
+            <span class="period">20XX &ndash; Present</span>
+            <h3>Current Role</h3>
+            <p class="org">Company or Organization</p>
+            <ul class="bullets">
+              <li>What you built, led, or improved.</li>
+              <li>Another accomplishment, ideally with a measurable result.</li>
+            </ul>
+          </li>
+          <li>
+            <span class="period">20XX &ndash; 20XX</span>
+            <h3>Previous Role</h3>
+            <p class="org">Company or Organization</p>
+            <ul class="bullets">
+              <li>Key responsibility or achievement.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <!-- TODO: replace with your real skills; group them however you like -->
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul class="chips">
+            <li>Language 1</li>
+            <li>Language 2</li>
+            <li>Language 3</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Frameworks &amp; Tools</h3>
+          <ul class="chips">
+            <li>Framework 1</li>
+            <li>Tool 1</li>
+            <li>Tool 2</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Interests</h3>
+          <ul class="chips">
+            <li>Topic 1</li>
+            <li>Topic 2</li>
+          </ul>
+        </div>
       </section>
 
       <section id="projects">
         <h2>Projects</h2>
+        <!-- TODO: replace these with your real projects; copy a card to add more -->
         <div class="cards">
-          <!-- TODO: replace these with your real projects; copy a card to add more -->
           <article class="card">
+            <span class="period">20XX</span>
             <h3>Project one</h3>
-            <p>A short description of what this project does.</p>
+            <p>A short description of what this project does and why it matters.</p>
+            <p class="tags">Tech A &middot; Tech B</p>
             <a href="https://github.com/mochayusa">View on GitHub →</a>
           </article>
           <article class="card">
+            <span class="period">20XX</span>
             <h3>Project two</h3>
-            <p>A short description of what this project does.</p>
+            <p>A short description of what this project does and why it matters.</p>
+            <p class="tags">Tech A &middot; Tech B</p>
             <a href="https://github.com/mochayusa">View on GitHub →</a>
           </article>
           <article class="card">
+            <span class="period">20XX</span>
             <h3>Project three</h3>
-            <p>A short description of what this project does.</p>
+            <p>A short description of what this project does and why it matters.</p>
+            <p class="tags">Tech A &middot; Tech B</p>
             <a href="https://github.com/mochayusa">View on GitHub →</a>
           </article>
         </div>
+      </section>
+
+      <section id="publications">
+        <h2>Publications &amp; Writing</h2>
+        <!-- TODO: papers, articles, talks, or blog posts. Delete this section
+             (and its nav link) if it doesn't apply to you. -->
+        <ol class="publications">
+          <li>
+            Author, A., &amp; Author, B. (20XX). <em>Title of the paper or article.</em>
+            Venue or Publisher. <a href="#">Link</a>
+          </li>
+          <li>
+            Author, A. (20XX). <em>Title of a talk or blog post.</em>
+            Event or Website. <a href="#">Link</a>
+          </li>
+        </ol>
       </section>
 
       <section id="contact">

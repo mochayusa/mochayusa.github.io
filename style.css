@@ -68,9 +68,15 @@ main,
   letter-spacing: -0.01em;
 }
 
+.site-header {
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 .site-header nav {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 8px 20px;
 }
 
 .site-header nav a {
@@ -84,7 +90,25 @@ main,
 }
 
 .hero {
-  padding: 72px 0 56px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 32px;
+  padding: 56px 0;
+}
+
+.avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
+
+.meta {
+  margin: -16px 0 24px;
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .eyebrow {
@@ -168,6 +192,105 @@ h2 {
   margin: 0 0 12px;
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+h3 {
+  margin: 0;
+}
+
+.period {
+  display: block;
+  margin-bottom: 2px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.timeline {
+  margin: 0;
+  padding: 0 0 0 20px;
+  list-style: none;
+  border-left: 2px solid var(--border);
+}
+
+.timeline > li {
+  position: relative;
+  padding-bottom: 28px;
+}
+
+.timeline > li:last-child {
+  padding-bottom: 0;
+}
+
+.timeline > li::before {
+  content: "";
+  position: absolute;
+  left: -27px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--bg);
+}
+
+.timeline h3 {
+  font-size: 1.05rem;
+}
+
+.timeline p {
+  margin: 2px 0 0;
+}
+
+.org {
+  color: var(--muted);
+}
+
+.bullets {
+  margin: 8px 0 0;
+  padding-left: 20px;
+}
+
+.skill-group {
+  margin-bottom: 20px;
+}
+
+.skill-group h3 {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chips li {
+  padding: 4px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.card .tags {
+  margin: 0 0 12px;
+  font-size: 0.85rem;
+}
+
+.publications {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.publications li {
+  margin-bottom: 12px;
 }
 
 .links {
