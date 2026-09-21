@@ -14,7 +14,8 @@ The site is plain HTML and CSS with no build step:
 | ------------ | --------------------------------------------------- |
 | `index.html` | Single-page site: hero, about, education, experience, skills, projects, publications, contact |
 | `style.css`  | Styles, including automatic light/dark mode         |
-| `photo.jpg`  | Your profile photo (optional; hidden if missing)    |
+| `photo.jpg`  | 480px web copy of your profile photo, shown in the hero |
+| `my-dp.png`  | Original full-size profile photo (not used by the page) |
 | `cv.pdf`     | Your CV, linked from the "Download CV" button (add it or remove the button) |
 
 Placeholder content is marked with `TODO` comments in `index.html`; search for them to find what to fill in.
